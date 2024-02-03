@@ -11,8 +11,7 @@ import PartyIcon from '../icon/partyIcon'
 import { useState, useMemo } from "react"
 
 export default function Amienities() {
-    const [color, Setcolor] = useState('')
-    Setcolor('#fffff')
+    const [color, Setcolor] = useState('#fffff')
     const memoizedColor = useMemo(() => color, [color]);
 
     const names = ['Gym','Clubhouse','Swimming Pool','Games Room',
